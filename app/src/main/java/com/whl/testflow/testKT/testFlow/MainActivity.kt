@@ -1,14 +1,13 @@
-package com.whl.testflow
+package com.whl.testflow.testKT.testFlow
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.TextView
 import androidx.activity.viewModels
-import androidx.lifecycle.ViewModel
 import androidx.lifecycle.lifecycleScope
+import com.whl.testflow.R
 import kotlinx.coroutines.delay
-import kotlinx.coroutines.flow.collect
 import kotlinx.coroutines.flow.collectLatest
 import kotlinx.coroutines.launch
 
